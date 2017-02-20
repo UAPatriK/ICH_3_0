@@ -140,6 +140,11 @@ body {
 /*
  * Affix and center
  */
+  .mastfoot {
+    position: fixed;
+    /* position: relative; */
+    bottom: 0px;
+  }
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
@@ -147,10 +152,7 @@ body {
     position: fixed;
     top: 0;
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
+ 
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
@@ -167,7 +169,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    /* width: 700px; */
   }
 }
 
@@ -309,4 +311,42 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   min-height: 80px;
   margin-bottom: 20px;
   border: 0px solid transparent;
+}
+
+.footer_block {
+  text-align: left;
+}
+
+.footer_block h1{
+  font-size: 36px;
+  font-family:  Futura Futurisc Bold;
+  color: #fff;
+  margin-bottom: 46px;
+} 
+
+
+.footer_block ul{
+padding-left: 0px;
+list-style-type: none;
+}
+
+.footer_block li{
+  font-size: 20px;
+  font-family:  Futura Futurisc Regular;
+  color: #fff;
+margin-bottom: 24px;
+} 
+
+.footer_block_2 {
+  font-size: 16px;
+  color: #fff;
+  font-family: Garamond;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footer_soc_icons i{
+  color: #fff;
+  font-size: 23px;
+  margin-left: 10px;
 }
