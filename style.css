@@ -36,6 +36,7 @@ a:hover {
 
 html,
 body {
+
   height: 100%;
   background-color: #fff;
 }
@@ -141,7 +142,8 @@ body {
  * Affix and center
  */
   .mastfoot {
-    position: fixed;
+    position: absolute;
+    display: block;
     /* position: relative; */
     bottom: 0px;
   }
@@ -215,7 +217,7 @@ padding-left: 45px;
 .navbar-inverse .navbar-nav > li > a:hover:after {
     content: "";
   
-    background-color: red;
+    background-color: #F92544;
     display: block;
   height: 8px;
     position: absolute;
@@ -309,7 +311,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar {
 
   min-height: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 0px solid transparent;
 }
 
