@@ -439,3 +439,16 @@ a.feedback_link:hover{
   color: #61686B;
   text-align: left;
 }
+
+.course_sign {
+  font-size: 75px;
+    font-family:  Futura Futurisc Bold;
+    text-align: left;
+}
+
+.course_subsign {
+  margin-top: 50px;
+    font-size: 24px;
+    text-align: left;
+    font-family:  Futura Futurisc Regular;
+}
