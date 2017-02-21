@@ -315,7 +315,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border: 0px solid transparent;
 }
 
-.footer_block {
+.footer_block, .text_block {
   text-align: left;
 }
 
@@ -351,4 +351,91 @@ margin-bottom: 24px;
   color: #fff;
   font-size: 23px;
   margin-left: 10px;
+}
+
+.block_borders {
+  border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.text_block h1{
+  font-size: 36px;
+  font-family:  Futura Futurisc Bold;
+  color: #252829;
+  margin-bottom: 46px;
+} 
+
+.text_block p{
+  font-size: 20px;
+  font-family:  Garamond;
+  color: #61686B;
+margin-bottom: 24px;
+} 
+
+.text_block a{
+  font-size: 16px;
+  font-family:  Futura Futurisc Regular;
+  color: #FF2646;
+margin-bottom: 24px;
+text-decoration: underline;
+} 
+
+.text_block a:hover{
+  text-decoration: none;
+} 
+
+.thumbnail_item {
+  border-bottom: 10px solid #FF2646;
+}
+
+.item_border {
+  border-bottom: 10px solid #61686B;
+}
+
+.course_item h1 {
+  font-size: 36px;
+  text-align: left;
+  color:  #61686B;
+    font-family:  Futura Futurisc Regular;
+}
+
+
+.course_item h2 {
+  font-size: 30px;
+  text-align: left;
+  color:  #000;
+    font-family:  Futura Futurisc Regular;
+}
+
+
+.feedback_block h1 {
+  margin-top: 0px;
+  margin-left: 20px;
+  font-size: 36px;
+  text-align: left;
+  color:  #61686B;
+    font-family:  Futura Futurisc Regular;
+}
+
+
+a.feedback_link{
+  font-size: 16px;
+  font-family:  Futura Futurisc Regular;
+  color: #FF2646;
+margin-bottom: 24px;
+text-decoration: underline;
+text-align: left !important;
+margin-left: 0px;
+} 
+
+a.feedback_link:hover{
+  text-decoration: none;
+} 
+
+.feedback_block p {
+  margin-top: 40px;
+  font-family: Garamond;
+  font-size: 24px;
+  color: #61686B;
+  text-align: left;
 }
