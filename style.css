@@ -432,7 +432,7 @@ a.feedback_link:hover{
   text-decoration: none;
 } 
 
-.feedback_block p {
+.feedback_block p { 
   margin-top: 40px;
   font-family: Garamond;
   font-size: 24px;
