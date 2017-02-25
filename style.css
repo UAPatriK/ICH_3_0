@@ -2,22 +2,7 @@
  * Globals
  */
 
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
 
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
 
 
 /*
@@ -42,7 +27,7 @@ body {
 }
 body {
   color: #252829;
-  text-align: center;
+
   /* text-shadow: 0 1px 3px rgba(0,0,0,.5); */
 }
 
@@ -327,6 +312,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 } 
 
 
+
+
 .footer_block ul{
 padding-left: 0px;
 list-style-type: none;
@@ -424,7 +411,7 @@ a.feedback_link{
   color: #FF2646;
 margin-bottom: 24px;
 text-decoration: underline;
-text-align: left !important;
+
 margin-left: 0px;
 } 
 
@@ -451,4 +438,93 @@ a.feedback_link:hover{
     font-size: 24px;
     text-align: left;
     font-family:  Futura Futurisc Regular;
+}
+
+.course_text {
+   margin-top: 50px;
+  color: #747b7e;
+  font-family: 'Garamond', serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+
+.course_info h1{
+   font-size: 20px;
+    text-align: left;
+    font-family:  Futura Futurisc Regular;
+}
+.course_info ul {
+  padding-left: 0px;
+}
+.course_info li, .course_info p{
+  list-style-type:  none;
+   font-size: 20px;
+    text-align: left;
+    font-family:  Garamond;
+    color: #747b7e
+}
+
+
+.btn-red {
+  margin-top: 200px;
+     font-size: 16px;
+    width: 100%;
+    font-family:  Futura Futurisc Regular;
+  color: #fff;
+  background-color:  #FA667C;
+  border-color: #FA667C;
+  border-radius: 0px;
+}
+.btn-red:focus,
+.btn-red.focus {
+  color: #FA667C;
+  background-color: #fff;
+  border-color: #FA667C;
+}
+.btn-red:hover {
+  color:#FA667C;
+  background-color: #fff;
+  border-color: #FA667C;
+}
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-red:active:hover,
+.btn-red.active:hover,
+.open > .dropdown-toggle.btn-red:hover,
+.btn-red:active:focus,
+.btn-red.active:focus,
+.open > .dropdown-toggle.btn-red:focus,
+.btn-red:active.focus,
+.btn-red.active.focus,
+.open > .dropdown-toggle.btn-red.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  background-image: none;
+}
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled.focus,
+.btn-red[disabled].focus,
+fieldset[disabled] .btn-red.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-red .badge {
+  color: #fff;
+  background-color: #333;
 }
