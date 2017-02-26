@@ -50,7 +50,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 0px;
 }
 
 
@@ -378,6 +378,9 @@ text-decoration: underline;
 .item_border {
   border-bottom: 10px solid #61686B;
 }
+.course_item {
+  margin-bottom: 200px;
+}
 
 .course_item h1 {
   font-size: 36px;
@@ -391,6 +394,14 @@ text-decoration: underline;
   font-size: 30px;
   text-align: left;
   color:  #000;
+    font-family:  Futura Futurisc Regular;
+}
+
+.course_item p {
+    font-size: 18px;
+  text-align: left;
+  color:  #a8a8a8;
+  margin-top: 100px;
     font-family:  Futura Futurisc Regular;
 }
 
@@ -527,4 +538,54 @@ fieldset[disabled] .btn-red.focus {
 .btn-red .badge {
   color: #fff;
   background-color: #333;
+}
+
+
+
+.btn-grey {
+
+     font-size: 16px;
+    width: 100%;
+    font-family:  Futura Futurisc Regular;
+  color: #fff;
+  background-color:  #61686B;
+  border-color: #61686B;
+  border-radius: 0px;
+}
+.btn-grey:focus,
+.btn-grey.focus {
+  color: #61686B;
+  background-color: #fff;
+  border-color: #61686B;
+}
+.btn-grey:hover {
+  color:#61686B;
+  background-color: #fff;
+  border-color: #61686B;
+}
+
+
+.tutors_block h1{
+     font-size: 20px;
+
+    font-family:  Futura Futurisc Regular;
+  color: #313536;
+}
+
+.tutors_block li{
+     font-size: 20px;
+
+    font-family:  Futura Futurisc Regular;
+  color: #313536;
+}
+
+.tutors_block ul {
+  padding-left: 0px;
+}
+.tutors_block li{
+  list-style-type:  none;
+   font-size: 20px;
+    text-align: left;
+    font-family:  Garamond;
+    color: #747b7e
 }
